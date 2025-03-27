@@ -9,20 +9,20 @@ Robocode's motto is
 
 ## Using this repository
 1. In the upper right corner, click **Use this template**, then click **Create a new repository**.
-2. Give your repository an easy-to-remember name.
+2. Give your repository an easy-to-remember name and choose **Private**. Click **Create repository**.
 3. Once the repository is created, click **Code**, then click **Create a codespace on main**. A codespace is a virtual environment where you can run the Robocode application.
 4. When the codespace loads (this may take a bit), click on **TERMINAL** at the bottom.
-5. Issue the following commands in the terminal to run robocode
+5. Copy or type the following commands in the terminal to run robocode.
 ```bash
 cd robocode
 ./robocode.sh
 ```
-
 You should see text appear that shows that robocode is starting. It will appear to freeze on "Reading robor database", but that is just the program running. You now need to access the GUI.
 
-6. Click on **PORTS** at the bottom. 
-7. Under **Forwarded Address** click on the globe icon to open a browser to view the robocode app. 
-8. A window will open with **noVNC**. Click **Connect**. Use the Robocode app.
+6. Click **PORTS** at the bottom. 
+7. Click **Forward a port**. Type in `6080` under **Port** and hit Enter. A new entry is created in the list. You only need to do this step once.
+8. Under **Forwarded Address** click on the globe icon.
+9. A new browser tab opens with the **noVNC** app. Click **Connect**. You should now be able to use the Robocode app (see the docs below for where to go next).
 
 ## Getting Started with Robocode
 The best place to get started is the documentation. Viktor G. put together these links:
