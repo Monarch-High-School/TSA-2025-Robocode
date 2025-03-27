@@ -14,7 +14,7 @@ Robocode's motto is
 4. When the codespace loads (this may take a bit), click on **TERMINAL** at the bottom.
 5. Issue the following commands in the terminal to run robocode
 ```bash
-cd /home/codespace/robocode
+cd robocode
 ./robocode.sh
 ```
 
